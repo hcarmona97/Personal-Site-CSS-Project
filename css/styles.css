@@ -1,12 +1,12 @@
 .top-container {
-  background-color: #bbe1fa;
+  background-color: #b3e2ff;
   position: relative;
   padding-top: 90px;
   padding-bottom: 30px;
 }
 
 .middle-container {
-  background-image: linear-gradient(#bbe1fa, #bfdcae);
+  background-image: linear-gradient(#b3e2ff, #bfdcae);
   position: relative;
   padding-top: 50px;
   padding-bottom: 30px;
@@ -14,10 +14,10 @@
 }
 
 .bottom-container {
-  background-image: linear-gradient(#bfdcae, #857671);
+  background-color: #857671;
   position: relative;
   padding-top: 65px;
-  padding-bottom: 10px;
+  padding-bottom: 50px;
 }
 
 .destacado {
@@ -26,60 +26,75 @@
 
 p {
   font-family: 'Montserrat', sans-serif;
-  margin-left: 200px;
-  margin-right: 200px;
+  margin: auto;
   font-size: 1.2em;
 }
 
 body {
+  color: #40514E;
   margin: 0;
   text-align: center;
   font-family: 'Arvo', serif;
 }
 
 h1 {
+  color: #145374;
   margin-top: 20px;
   margin-bottom: 20px;
-  font-size: 4.3em;
+  font-size: 4em;
 }
 
 h2 {
-  font-size: 2.5em;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  color: #145374;
+  font-size: 2.2em;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-weight: normal;
 }
 
 h3 {
+  color: #145374;
   font-size: 1.5em;
 }
 
+
 .bottomcloud {
   position: absolute;
-  left: 300px;
+  left: 220px;
   bottom: 330px;
 }
 
 .topcloud {
   position: absolute;
-  right: 300px;
+  right: 230px;
   top: 50px;
 }
 
 .mountain {
   position: relative;
-  top: 5px;
+  width: 450px;
+  height: 300px;
+  top: 81px;
   opacity: .95;
 }
 
 .picsProf {
-  height: 200px;
-  width: 200px;
+  height: 250px;
+  width: 250px;
   opacity: .95;
 }
 
-.picsSki {
-  height: 220px;
-  width: 220px;
+.picS1 {
+  height: 200px;
+  width: 200px;
+  float: left;
+  margin: 20px;
+}
+
+.picS2 {
+  height: 200px;
+  width: 200px;
+  float: right;
   margin: 20px;
 }
 
@@ -87,17 +102,46 @@ hr {
   border-style: dotted none none;
   width: 4%;
   border-width: 7px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 90px;
+  margin-bottom: 90px;
+  opacity: .8;
 }
 
 .footer-link {
   height: 35px;
   width: 35px;
   margin: auto 2px auto 2px;
-  opacity: .80;
+  opacity: .60;
 }
 
 .footer-link:hover {
   opacity: 1;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 50px auto;
+  padding: 1em;
+  text-align: left;
+}
+
+.profile {
+  width: 50%;
+  margin: auto;
+}
+
+button {
+  color: white;
+  margin: 50px;
+  padding: 10px;
+  width: 170px;
+  border-radius: .7em;
+  font-size: 110%;
+  background-color: #857671;
+  border: none;
+}
+
+.copy {
+  color: #a1a1a1;
+  margin-top: 10px;
 }
